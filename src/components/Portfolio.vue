@@ -25,7 +25,9 @@
                 </div>
             </div>
         </div>
-        <Footer/>
+        <footer>
+            <Footer/>
+        </footer>
     </div>
 </template>
 
@@ -64,7 +66,7 @@
                     {
                         nombre: 'Neurofinanzas', 
                         descripción:'Este proyecto consiste en la creación de una página web para Neurofinanzas, O.N.G. enfocada a brindar educación financiera a las comunidades de México a través de talleres y conferencias.', 
-                        status:'en construcción', 
+                        status:'terminado', 
                         fecha:'Mayo 2020', 
                         herramientas:'VueJs',
                         image: require('@/assets/neuro.jpeg'),
@@ -129,9 +131,9 @@
         color: hsl(56, 65%, 35%);
     }
     .project-status.green{
-        background-color: hsl(90, 85%, 50%);
+        background-color: hsl(90, 85%, 90%);
         border: 2px solid hsl(90, 85%, 58%);
-        color: hsl(90, 85%, 35%);
+        color: hsl(90, 65%, 35%);
     }
     .fecha {
         font-size: 14px;
